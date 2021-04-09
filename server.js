@@ -40,6 +40,6 @@ app.get('/resonateau',(req,res) => {
 
 
 app.listen(port, () => {
-    console.log(`ResonateAU server listening on port 4000`);
+    console.log(`ResonateAU server running on port 4000`);
     
 })
