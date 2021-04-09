@@ -9,7 +9,7 @@ function Home() {
 
     useEffect(() => {
         try {
-            axios.get(`http://localhost:4000/resonateau`, {}).then(response => {
+            axios.get(`https://cryptic-beach-05244.herokuapp.com/resonateau`, {}).then(response => {
                 setTweets(response.data);
                 console.log("reached here");
                 // console.log(tweets);
