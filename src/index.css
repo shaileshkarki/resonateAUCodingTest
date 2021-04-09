@@ -13,6 +13,7 @@ body {
 section {
   display: -webkit-flex;
   display: flex;
+  flex-direction: column;
 }
 footer {
   background-color: gray;
